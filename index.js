@@ -9,13 +9,25 @@ const questions = [{
                     type: "input",
                     name: "charachters",
                     validate: function(input) { 
-                        return input.length <= 3;
+                        if (input.length > 5){
+                           return false;
+                        }
+                        if (input.includes(" ") && input.split(" ").length > 3){
+                          return false;
+                        }
+                        if (input.includes(",") && input.split(",").length > 3){
+                          return false;
+                        }
+                        return true;
                     }
                    }, 
                    {
                     message:  "Please enter text color",
                     type: "input",
                     name: "color",
+                    validate: function(input) { 
+                      return input.length > 2;
+                    }
                    },
                    {
                     message:  "Please enter a shape",
@@ -27,6 +39,9 @@ const questions = [{
                     message: "Please enter shape's color",
                     type: "input",
                     name: "shapeColor",
+                    validate: function(input) { 
+                      return input.length > 2;
+                    }
                    },
                 ];
 
