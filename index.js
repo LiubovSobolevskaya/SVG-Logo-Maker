@@ -1,6 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const {generateSVG} = require('./lib/generateSVG');
+
+
+
 const questions = [{ 
                     message: "Please enter up to three charachters",
                     type: "input",

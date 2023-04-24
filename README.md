@@ -14,12 +14,11 @@ ______________
 
 ## Requirements
 Run
-
 ```
 npm install
 ```
 ## Example of logo created by this program
-![logo](examples/logo.svg)
+![logo](examples/logo_example.svg)
 
 ## Author Info
 
