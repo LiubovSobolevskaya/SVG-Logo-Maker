@@ -13,6 +13,7 @@ ______________
 * [Git](https://git-scm.com/)   
 * [JavaScript](https://www.javascript.com/)   
 * [Node.js](https://nodejs.dev/)
+* [SVG](https://en.wikipedia.org/wiki/SVG)
 
 ## Requirements
 Run
