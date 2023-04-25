@@ -1,4 +1,4 @@
-# SVG-Logo-Maker
+# SVG Logo Maker
 8th assignment of UCB Extension Web Development Bootcamp
 
 Please visit the [walkthrough video](https://drive.google.com/file/d/13i9vR0lDyev6qjKFh3nsaDPvEg8oWv9z/view?usp=sharing)
