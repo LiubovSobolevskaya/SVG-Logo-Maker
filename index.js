@@ -29,6 +29,7 @@ const questions = [
     name: "color",
     // Validate user input
     validate: function(input) { 
+      // input can't be shorter than 3 characters
       return input.length > 2;
     }
   },
@@ -44,6 +45,7 @@ const questions = [
     name: "shapeColor",
     // Validate user input
     validate: function(input) { 
+      // input can't be shorter than 3 characters
       return input.length > 2;
     }
   },
@@ -52,7 +54,7 @@ const questions = [
 // Function to write the SVG file
 function writeToFile(fileName, data) {
   // Generate the SVG text using the generateSVG function
-  text = generateSVG(data);
+  const text = generateSVG(data);
   // Write the text to the specified file
   fs.writeFile(fileName, text, (err) =>
     err ? console.log(err) : console.log('Generated logo.svg')
